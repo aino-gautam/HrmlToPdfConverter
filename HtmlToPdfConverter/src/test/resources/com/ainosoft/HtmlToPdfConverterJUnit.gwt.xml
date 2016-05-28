@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="HtmlToPdfConverter">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.ainosoft.HtmlToPdfConverter' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/HtmlToPdfConverter/greet" class="com.ainosoft.server.GreetingServiceImpl" />
+
+</module>
